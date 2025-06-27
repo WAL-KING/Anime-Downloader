@@ -8,7 +8,6 @@ BOT_TOKEN = "6684287274:AAE09HJ9qzoa0FHQ7SQQTm6-nGKYVKl1IOE"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 CHANNELS = {
-    "J-ONE": "@japon_one1",
     "J-ONE 🇫🇷": "@japon_one1VF",
     "MOVIE BOX": "@movieboxfr",
 }
