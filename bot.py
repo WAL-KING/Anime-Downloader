@@ -4,7 +4,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import yt_dlp
 import subprocess
 
-BOT_TOKEN = "7809603810:AAG9KGu5eramPitX24ECZ4r92_RGmpl3dA4"
+BOT_TOKEN = "6684287274:AAE09HJ9qzoa0FHQ7SQQTm6-nGKYVKl1IOE"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 CHANNELS = {
