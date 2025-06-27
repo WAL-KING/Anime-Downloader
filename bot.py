@@ -9,7 +9,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 CHANNELS = {
     "J-ONE 🇫🇷": "@japon_one1VF",
-    "MOVIE BOX": "@movieboxfr",
 }
 
 def check_subscription(user_id):
@@ -37,7 +36,7 @@ def progress_bar(downloaded, total, speed, eta):
     bar = f"{'█' * completed}{'░' * remaining}"
     progress = (
         f"Résultats obtenus\n"
-        f"@japon_one1 le meilleur canal de tous les temps....\n\n"
+        f"Merci de nous faire confiance....\n\n"
         f"{bar}\n\n"
         f"╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣\n"
         f"┣⪼ 🗂️ : {downloaded / (1024 * 1024):.2f} MB | {total / (1024 * 1024):.2f} MB\n"
